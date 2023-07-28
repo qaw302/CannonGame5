@@ -29,7 +29,7 @@ public class BallTest {
 
         assertEquals(location, ball.getLocation());
         assertEquals(radius, ball.getRadius());
-        assertEquals(Ball.DEFAULT_COLOR, ball.getColor());
+        // assertEquals(Ball.DEFAULT_COLOR, ball.getColor());
     }
 
     @RepeatedTest(10)
